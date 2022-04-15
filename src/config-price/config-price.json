@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "name": "Land S",
+        "type": "1",
+        "typeDescription": "Land",
+        "typeConfig": "S",
+        "description": "This is a land have type S and acreage in range 1 - 300",
+        "status": "ACTIVE",
+        "price": 100,
+        "typeMoney": "$",
+        "createTimestamp": "2022-04-14T02:50:08.855+00:00",
+        "updateTimestamp": "2022-04-14T02:50:08.855+00:00"
+    },
+    {
+        "id": 2,
+        "name": "Land M",
+        "type": "1",
+        "typeDescription": "Land",
+        "typeConfig": "M",
+        "status": "ACTIVE",
+        "price": 500,
+        "typeMoney": "$",
+        "description": "This is a land have type S and acreage in range 301 - 600",
+        "createTimestamp": "2022-04-14T02:50:08.855+00:00",
+        "updateTimestamp": "2022-04-14T02:50:08.855+00:00"
+
+    },
+    {
+        "id": 3,
+        "name": "Land L",
+        "type": "1",
+        "typeDescription": "Land",
+        "typeConfig": "L",
+        "status": "ACTIVE",
+        "price": 800,
+        "typeMoney": "$",
+        "description": "This is a land have type S and acreage in range 601 - 900",
+        "createTimestamp": "2022-04-14T02:50:08.855+00:00",
+        "updateTimestamp": "2022-04-14T02:50:08.855+00:00"
+    },
+    {
+        "id": 4,
+        "name": "Land XL",
+        "type": "1",
+        "typeDescription": "Land",
+        "typeConfig": "XL",
+        "price": 800,
+        "status": "ACTIVE",
+        "description": "This is a land have type S and acreage in range >= 900",
+        "createTimestamp": "2022-04-14T02:50:08.855+00:00",
+        "updateTimestamp": "2022-04-14T02:50:08.855+00:00"
+    }
+]

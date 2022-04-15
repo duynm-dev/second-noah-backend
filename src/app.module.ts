@@ -9,6 +9,7 @@ import { AddressRepository } from './address/address.repository';
 import { Address, AddressSchema } from './address/schema/address.schema';
 import { AuthModule } from './auth/auth.module';
 import { ConfigModule } from '@nestjs/config';
+import { ConfigPriceModule } from './config-price/config-price.module';
 
 
 @Module({
@@ -21,7 +22,8 @@ import { ConfigModule } from '@nestjs/config';
       isGlobal: true,
     }),
     MongooseModule.forRoot(process.env.DB_LOCALHOST),
-    AuthModule],
+    AuthModule,
+    ConfigPriceModule],
   controllers: [AppController],
   providers: [AppService],
 })
